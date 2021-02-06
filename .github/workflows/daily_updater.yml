@@ -10,12 +10,10 @@ jobs:
     steps:
       - uses: actions/checkout@daily_updater
       - name: Update
-        env: EMAIL: ${{ secrets.EMAIL }}
-             PASS: ${{ secrets.PASS }}
         run: |
           git config user.name "Daily update action"
-          git config user.email "$EMAIL"
-          git remote set-url origin https://asaba-zauberer:$PASS}@github.com/asaba-zauberer/covid19-akita
+          git config user.email "${{ secrets.EMAIL }}"
+          git remote set-url origin https://asaba-zauberer:${{ secrets.PASS }}@github.com/asaba-zauberer/covid19-akita
           cd tool/ruby
           rake
           cd ../../

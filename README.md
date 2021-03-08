@@ -5,7 +5,7 @@
 [![秋田県 新型コロナウイルス感染症対策サイト](/static/mainss.png)](https://covid19-akita-cfa.netlify.app/)
 
 ## 本プロジェクトは以下のプロジェクトに引き継がれました
-秋田県 新型コロナウイルス感染症対策サイト（ [code4akita/covid19-akita] (https://github.com/code4akita/covid19-akita) ）
+秋田県 新型コロナウイルス感染症対策サイト（ [code4akita/covid19-akita](https://github.com/code4akita/covid19-akita) ）
 
 ## このサイトのもとになったサイト
 東京都 新型コロナウイルス感染症対策サイト（ [tokyo-metropolitan-gov/covid19](https://github.com/tokyo-metropolitan-gov/covid19) ）<br>
